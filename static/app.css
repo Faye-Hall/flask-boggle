@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(8, 97, 148);
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    margin-left: 20px;
+    border: solid 1px black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.game-board,
+td {
+
+    padding-left: 25px
+}
+
+.add-word {
+    padding: 10px;
+    margin-left: 30%;
+
+}
+
+form {
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.start-button {
+    margin-left: 30%;
+}
